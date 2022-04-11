@@ -12,11 +12,31 @@ client.on("ready", () => {
  
  client.on("message", (message) => {
    if(message.content.startsWith("Línea Roca")) {
-     message.channel.send("La Línea Roca está activa, pero tiene un mantenimiento programado con duración de.. 2-3 días.");
+     message.channel.send("La Línea Roca está activa.");
    }
 
    if(message.content === "Línea H")
    message.channel.send("La Línea H Está funcionando con normalidad.");
+   }
+   
+   if(message.content === "Línea A")
+   message.channel.send("La Línea A Está funcionando con normalidad.");
+
+   if(message.content === "Línea B")
+   message.channel.send("La Línea B Está funcionando con normalidad.");
+   }
+   
+   if(message.content === "Línea C")
+   message.channel.send("La Línea H Está funcionando con normalidad.");
+   }
+   
+   if(message.content === "Línea D")
+   message.channel.send("La Línea D Está funcionando con normalidad.");
+   }
+   
+   if(message.content === "Línea E")
+   message.channel.send("La Línea E Está funcionando con normalidad.");
+   }
 
    
 

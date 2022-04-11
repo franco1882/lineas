@@ -17,6 +17,9 @@ client.on("ready", () => {
 
    if(message.content === "Línea H")
    message.channel.send("La Línea H Está funcionando con normalidad.");
+     
+   if(message.content === "Línea B")
+   message.channel.send("La Línea B Está funcionando con normalidad.");
 
    
 

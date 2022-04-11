@@ -20,6 +20,36 @@ client.on("ready", () => {
      
    if(message.content === "Línea B")
    message.channel.send("La Línea B Está funcionando con normalidad.");
+     
+   if(message.content === "Línea C")
+   message.channel.send("La Línea C Está funcionando con normalidad.");
+     
+   if(message.content === "Línea D")
+   message.channel.send("La Línea D Está funcionando con normalidad.");
+     
+   if(message.content === "Línea E")
+   message.channel.send("La Línea E Está funcionando con normalidad.");
+     
+   if(message.content === "Metro CDMX Línea A")
+   message.channel.send("La Línea A Está funcionando con normalidad.");
+   
+   if(message.content === "Metro CDMX Línea 2")
+   message.channel.send("La Línea 2 Está funcionando con normalidad.");
+     
+   if(message.content === "Metro CDMX Línea 4")
+   message.channel.send("La Línea 4 Está funcionando con normalidad.");  
+     
+   if(message.content === "Metro CDMX Línea 6")
+   message.channel.send("La Línea 6 Está funcionando con normalidad.");  
+     
+   if(message.content === "Metro CDMX Línea 7")
+   message.channel.send("La Línea 7 Está funcionando con normalidad.");  
+     
+   if(message.content === "Metro CDMX Línea 12")
+   message.channel.send("La Línea 12 Está funcionando con normalidad.");   
+          
+   if(message.content === "Metro CDMX Línea 1")
+   message.channel.send("La Línea 1 Está funcionando con normalidad.");   
 
    
 

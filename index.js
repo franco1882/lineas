@@ -16,19 +16,22 @@ client.on("ready", () => {
    }
 
    if(message.content === "Línea H")
-   message.channel.send("La Línea H Está funcionando con normalidad.");
+   message.channel.send("La Línea H del Subte Está funcionando con normalidad.");
+     
+   if(message.content === "Línea A")
+   message.channel.send("La Línea A del Subte Está funcionando con normalidad.");
      
    if(message.content === "Línea B")
-   message.channel.send("La Línea B Está funcionando con normalidad.");
+   message.channel.send("La Línea B del Subte Está funcionando con normalidad.");
      
    if(message.content === "Línea C")
-   message.channel.send("La Línea C Está funcionando con normalidad.");
+   message.channel.send("La Línea C del Subte Está funcionando con normalidad.");
      
    if(message.content === "Línea D")
-   message.channel.send("La Línea D Está funcionando con normalidad.");
+   message.channel.send("La Línea D del Subte Está funcionando con normalidad.");
      
    if(message.content === "Línea E")
-   message.channel.send("La Línea E Está funcionando con normalidad.");
+   message.channel.send("La Línea E del Subte Está funcionando con normalidad.");
      
    if(message.content === "Metro CDMX Línea A")
    message.channel.send("La Línea A Está funcionando con normalidad.");

@@ -33,6 +33,9 @@ client.on("ready", () => {
    if(message.content === "Línea E")
    message.channel.send("La Línea E del Subte Está funcionando con normalidad.");
      
+   if(message.content === "Línea F")
+   message.channel.send("Preguntále a Larreta.");
+     
    if(message.content === "Metro CDMX Línea A")
    message.channel.send("La Línea A Está funcionando con normalidad.");
      

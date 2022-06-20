@@ -19,7 +19,7 @@ client.on("ready", () => {
    message.channel.send("La Línea H del Subte Está funcionando con normalidad.");
      
    if(message.content === "Línea A")
-   message.channel.send("La Línea A del Subte Está funcionando con normalidad/Fallas con el Fiat Materfer.");
+   message.channel.send("La Línea A del Subte Está funcionando con normalidad.");
      
    if(message.content === "Línea B")
    message.channel.send("La Línea B del Subte Está funcionando con normalidad.");

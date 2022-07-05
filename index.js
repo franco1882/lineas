@@ -67,7 +67,7 @@ client.on("ready", () => {
    message.channel.send("La Línea 12 de Franco Está funcionando con normalidad.");   
           
    if(message.content === "Metro CDMX Línea 1")
-   message.channel.send("La Línea 1 Está funcionando con normalidad.");   
+   message.channel.send("La Línea 1 Está funcionando con normalidad/La de Franco se encuentra inhabilitado.");   
 
    
 

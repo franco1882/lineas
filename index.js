@@ -25,7 +25,7 @@ client.on("ready", () => {
    message.channel.send("La Línea B del Subte Está funcionando con normalidad.");
      
    if(message.content === "Línea C")
-   message.channel.send("La Línea C del Subte Está funcionando con normalidad/ Edición Definitiva no está habilitado.");
+   message.channel.send("La Línea C "Constitución - Retiro" Está estable sin habilitación.");
      
    if(message.content === "Línea D")
    message.channel.send("La Línea D del Subte Está funcionando con normalidad.");
@@ -43,7 +43,7 @@ client.on("ready", () => {
    message.channel.send("No existe.");
    
    if(message.content === "Metro CDMX Línea 2")
-   message.channel.send("La Línea 2 de Lapras y la de Mau Están funcionando con normalidad/La de Franco no está habilitada.");
+   message.channel.send("Sin info.");
      
    if(message.content === "Metro CDMX Línea 3")
    message.channel.send("La Línea 3 No está habilitada.");
@@ -64,10 +64,10 @@ client.on("ready", () => {
    message.channel.send("No existe.");  
      
    if(message.content === "Metro CDMX Línea 12")
-   message.channel.send("La Línea 12 de Franco Está funcionando con normalidad.");   
+   message.channel.send("La Línea 12 Está funcionando con normalidad.");   
           
    if(message.content === "Metro CDMX Línea 1")
-   message.channel.send("La Línea 1 Está funcionando con normalidad/La de Franco se encuentra inhabilitado.");   
+   message.channel.send("Sin info.");   
 
    
 

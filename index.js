@@ -52,7 +52,7 @@ client.on("ready", () => {
    message.channel.send("La Línea 4 Está funcionando con normalidad.");  
      
    if(message.content === "Metro CDMX Línea 6")
-   message.channel.send("La Línea 6 Está funcionando con normalidad.");  
+   message.channel.send("No info.");  
      
    if(message.content === "Metro CDMX Línea 7")
    message.channel.send("La Línea 7 Está funcionando con normalidad/Tienen algunas fallas de velocidad.");  

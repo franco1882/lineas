@@ -43,10 +43,10 @@ client.on("ready", () => {
    message.channel.send("No existe.");
    
    if(message.content === "Metro CDMX Línea 2")
-   message.channel.send("Sin info.");
+   message.channel.send("Servicio Limitado.");
      
    if(message.content === "Metro CDMX Línea 3")
-   message.channel.send("La Línea 3 No está habilitada.");
+   message.channel.send("El ventilador es decal, que bajo cayeron:p");
      
    if(message.content === "Metro CDMX Línea 4")
    message.channel.send("La Línea 4 Está funcionando con normalidad.");  
@@ -67,7 +67,7 @@ client.on("ready", () => {
    message.channel.send("La Línea 12 Está funcionando con normalidad.");   
           
    if(message.content === "Metro CDMX Línea 1")
-   message.channel.send("Sin info.");   
+   message.channel.send("Servicio Limitado.");   
 
    
 
